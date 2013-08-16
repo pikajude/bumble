@@ -1,6 +1,6 @@
 # Bumble
 
-TODO: Write a gem description
+It's like `bundle` (a LOT like `bundle`) but tells you neat things that help your productivity.
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use `bumble` EXACTLY how you would use `bundle`, but substitute `bumble` for `bundle`.
+
+Examples:
+
+    bumble install
+    bumble update
+    bumble exec rails c
 
 ## Contributing
 
