@@ -8,6 +8,7 @@ module Bumble
     system "bundle #{ARGV.join(" ")}"
     diff = Time.now - t
     puts "Bundle took #{diff} seconds! Something you could have done during that time:"
+    sleep 1.5
     puts "  #{Bumble::Factoid.factoid(diff)}"
   end
 end
